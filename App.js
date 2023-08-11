@@ -18,7 +18,7 @@ import ProductDetail from './components/ProductDetail';
 import ItemsContext from './context/cart/ItemsContext';
 import Redirect from './components/checkout/Redirect';
 // import Payment from './components/checkout/Payment';
-axios.defaults.baseURL = `https://e-commerce-server-7s60.onrender.com`;
+// axios.defaults.baseURL = `https://e-commerce-server-7s60.onrender.com`;
 
 function App() {
   const [data, setData] = useState('');
