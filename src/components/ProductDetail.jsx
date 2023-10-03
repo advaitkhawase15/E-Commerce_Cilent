@@ -132,7 +132,7 @@ function ProductDetail() {
                                     {image
                                         ? image.map((image_src, key) => {
                                             return <img key={key}
-                                                alt="Item"
+                                                alt="Product Image"
                                                 onMouseEnter={() => setMainImage(image[key])}
                                                 className={`h-14 w-10 lg:w-14 mb-1 rounded-sm object-contain ${MainImage === image_src ? "border-2" : "border-0"}`}
                                                 src={image_src} />
@@ -142,7 +142,7 @@ function ProductDetail() {
                                 </PerfectScrollbar>
                             </div>
                         </div>
-                        <img alt="ecommerce"
+                        <img alt="Product Image"
                             className="lg:w-2/5 lg:h-[35rem] md:h-[30rem] h-64 w-3/4 object-contain object-center"
                             src={MainImage} />
                         <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
